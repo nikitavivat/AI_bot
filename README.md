@@ -30,6 +30,7 @@ __Инструкции по запуску:__
   - Используйте python main.py для запуска бота.
 
 __Конфигурационный файл (config.py):__
+```
 tg_chanel = "your_chanel_link"
 chanel_id = "your_chanel_id"
 
@@ -67,8 +68,9 @@ gp - ChatGPT Pro
 #                        'ChatGPT Flash - 10 запросов', 'ChatGPT PRO - 11 запросов']
 tariff_plans = ['tariff_gpt4o_10', 'tariff_gp_10', 'tariff_dalle3_10']
 name_of_tariff_plans = ['GPT 4o 10 запросов - 99 руб', 'ChatGPT Pro 10 запросов - 99 руб', 'DALL-E 3 10 запросов - 99 руб']
-
+```
 Сообщения (messages.py):
+```
 import config
 import database
 
@@ -145,7 +147,7 @@ def premium_msg(user_id):
 • запросы суммируются, поэтому никогда не пропадут
 """
     return prime_msg
-
+```
 __Редактирование сообщений (messages.py):__
 
 В файле messages.py вы можете редактировать текст сообщений, отправляемых ботом пользователям. 
