@@ -21,7 +21,7 @@ PRICE_PER_ONE_GEMINI_PER_ONE = 9.9
 PRIME_STATUS_PER_DAY = 1000
 DALLE3_PER_ONE = 9.9
 
-owners = [829015780]
+owners = [] #owner's ids list
 
 """
 Обозначения для тарифов:
